@@ -10017,7 +10017,7 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="IC1" library="linear" deviceset="LM324" device="D"/>
-<part name="C1" library="rcl" deviceset="C-US" device="C1206K" value="1u"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C1206K" value="10u"/>
 <part name="C2" library="rcl" deviceset="C-US" device="C0603K" value="100n"/>
 <part name="C3" library="rcl" deviceset="C-US" device="C0603K" value="100n"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="33k"/>
@@ -10036,8 +10036,7 @@ Source: www.kingbright.com</description>
 <part name="C5" library="rcl" deviceset="C-US" device="C1206K" value="10u"/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
 <part name="P-1" library="supply1" deviceset="-12V" device=""/>
-<part name="C6" library="rcl" deviceset="C-US" device="C0603K" value="1u"/>
-<part name="C7" library="rcl" deviceset="C-US" device="C0603K" value="1u"/>
+<part name="C6" library="rcl" deviceset="C-US" device="C0603K" value="10u"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="100k"/>
@@ -10084,7 +10083,6 @@ Source: www.kingbright.com</description>
 <instance part="P+1" gate="1" x="129.54" y="48.26"/>
 <instance part="P-1" gate="1" x="129.54" y="12.7"/>
 <instance part="C6" gate="G$1" x="43.18" y="106.68" rot="R90"/>
-<instance part="C7" gate="G$1" x="43.18" y="114.3" rot="R90"/>
 <instance part="GND6" gate="1" x="167.64" y="124.46" rot="R180"/>
 <instance part="R5" gate="G$1" x="160.02" y="114.3" rot="R180"/>
 <instance part="R6" gate="G$1" x="177.8" y="106.68" rot="R180"/>
@@ -10119,10 +10117,6 @@ Source: www.kingbright.com</description>
 <wire x1="35.56" y1="99.06" x2="35.56" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="106.68" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="106.68" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
-<junction x="35.56" y="106.68"/>
 <junction x="35.56" y="99.06"/>
 </segment>
 </net>
@@ -10139,10 +10133,6 @@ Source: www.kingbright.com</description>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="106.68" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="106.68" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
-<junction x="55.88" y="106.68"/>
 <junction x="55.88" y="99.06"/>
 <wire x1="55.88" y1="83.82" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
