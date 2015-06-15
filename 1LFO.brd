@@ -130,19 +130,20 @@
 </layers>
 <board>
 <plain>
-<wire x1="1.27" y1="1.27" x2="98.095" y2="1.27" width="0" layer="20"/>
-<wire x1="98.095" y1="1.27" x2="98.095" y2="19.04" width="0" layer="20"/>
-<wire x1="98.095" y1="19.04" x2="1.27" y2="19.04" width="0" layer="20"/>
-<wire x1="1.27" y1="19.04" x2="1.27" y2="1.27" width="0" layer="20"/>
+<wire x1="3.81" y1="1.27" x2="99.365" y2="1.27" width="0" layer="20"/>
+<wire x1="99.365" y1="1.27" x2="99.365" y2="19.04" width="0" layer="20"/>
+<wire x1="99.365" y1="19.04" x2="3.81" y2="19.04" width="0" layer="20"/>
+<wire x1="3.81" y1="19.04" x2="3.81" y2="1.27" width="0" layer="20"/>
 <wire x1="27.305" y1="16.51" x2="27.305" y2="2.54" width="0.254" layer="25"/>
 <wire x1="27.305" y1="2.54" x2="32.385" y2="2.54" width="0.254" layer="25"/>
 <wire x1="32.385" y1="2.54" x2="32.385" y2="16.51" width="0.254" layer="25"/>
 <wire x1="27.94" y1="3.175" x2="31.75" y2="3.175" width="0.254" layer="25"/>
 <wire x1="27.305" y1="16.51" x2="32.385" y2="16.51" width="0.254" layer="25"/>
 <text x="7.62" y="1.905" size="1.6764" layer="25" font="vector">RED STRIPE -&gt;</text>
-<text x="85.725" y="17.78" size="4.572" layer="25" font="vector" rot="SR270">1LFO</text>
+<text x="87.63" y="17.78" size="4.572" layer="25" font="vector" rot="SR270">1LFO</text>
 <text x="81.915" y="17.78" size="1.27" layer="25" font="vector" rot="SR270">cc-by-sa 2015
-Lars Bengtsson</text>
+Lars Bengtsson
+v1.1 20150615</text>
 <wire x1="66.675" y1="18.415" x2="66.675" y2="13.97" width="0.254" layer="25"/>
 <wire x1="66.675" y1="13.97" x2="76.835" y2="13.97" width="0.254" layer="25"/>
 <wire x1="76.835" y1="13.97" x2="76.835" y2="18.415" width="0.254" layer="25"/>
@@ -1434,22 +1435,32 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
 Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
 <packages>
-<package name="LED5MM">
+<package name="LED3MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-5 mm, round</description>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+3 mm, round</description>
+<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-1.1708" y2="0.9756" width="0.1524" layer="51" curve="-39.80361"/>
+<wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208"/>
+<wire x1="1.1571" y1="0.9918" x2="1.524" y2="0" width="0.1524" layer="51" curve="-40.601165"/>
+<wire x1="1.1708" y1="-0.9756" x2="1.524" y2="0" width="0.1524" layer="51" curve="39.80361"/>
+<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.1524" layer="21" curve="-54.461337"/>
+<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.1524" layer="21" curve="-53.130102"/>
+<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.1524" layer="21" curve="52.126876"/>
+<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90"/>
+<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108"/>
+<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949"/>
+<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022"/>
+<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215"/>
+<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701"/>
+<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822"/>
 <pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
 <pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1716,14 +1727,16 @@ Please make sure your boards conform to these design rules.</description>
 <element name="AM." library="pot-alps" package="ALPS_POT_VERTICAL" value="100k" x="53.34" y="10.16" rot="MR270"/>
 <element name="INV.AM." library="pot-alps" package="ALPS_POT_VERTICAL" value="100k" x="21.59" y="10.16" rot="MR270"/>
 <element name="OUT" library="thonkiconn" package="WQP-PJ301M-12_JACK" value="WQP-PJ301M-12_JACK" x="39.37" y="10.16" rot="MR180"/>
-<element name="INV_OUT" library="thonkiconn" package="WQP-PJ301M-12_JACK" value="WQP-PJ301M-12_JACK" x="7.62" y="10.16" rot="MR180"/>
-<element name="R7" library="rcl" package="R0603" value="10k" x="93.98" y="5.715" smashed="yes">
-<attribute name="NAME" x="92.075" y="3.175" size="1.27" layer="25"/>
-<attribute name="VALUE" x="94.615" y="3.175" size="1.27" layer="27"/>
+<element name="INV_OUT" library="thonkiconn" package="WQP-PJ301M-12_JACK" value="WQP-PJ301M-12_JACK" x="7.62" y="10.16" smashed="yes" rot="MR180">
+<attribute name="NAME" x="13.6652" y="17.1704" size="1.27" layer="22" rot="MR270"/>
 </element>
-<element name="LED1" library="led" package="LED5MM" value="" x="93.98" y="10.16" smashed="yes" rot="MR0">
-<attribute name="NAME" x="96.52" y="13.8684" size="1.27" layer="26" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="90.7796" y="8.3566" size="1.27" layer="28" ratio="10" rot="MR0"/>
+<element name="R7" library="rcl" package="R0603" value="10k" x="93.98" y="5.715" smashed="yes">
+<attribute name="NAME" x="95.885" y="5.08" size="1.27" layer="25"/>
+<attribute name="VALUE" x="95.885" y="3.175" size="1.27" layer="27"/>
+</element>
+<element name="LED1" library="led" package="LED3MM" value="" x="96.52" y="10.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="97.79" y="13.2334" size="1.27" layer="26" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="93.3196" y="8.3566" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
 </elements>
 <signals>
@@ -1841,10 +1854,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="INV_OUT" pad="P$3"/>
 <contactref element="LED1" pad="K"/>
 <polygon width="0.254" layer="16" isolate="0.3048">
-<vertex x="2.54" y="18.415"/>
-<vertex x="97.155" y="18.415"/>
-<vertex x="97.155" y="1.905"/>
-<vertex x="2.54" y="1.905"/>
+<vertex x="4.445" y="18.415"/>
+<vertex x="98.425" y="18.415"/>
+<vertex x="98.425" y="1.905"/>
+<vertex x="4.445" y="1.905"/>
 </polygon>
 <wire x1="64.77" y1="12.76" x2="64.77" y2="12.7" width="0.254" layer="1"/>
 <wire x1="64.77" y1="12.76" x2="64.77" y2="15.24" width="0.254" layer="1"/>
@@ -1995,8 +2008,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="N$13">
 <contactref element="R7" pad="2"/>
 <contactref element="LED1" pad="A"/>
-<wire x1="95.25" y1="10.16" x2="95.25" y2="6.135" width="0.254" layer="1"/>
-<wire x1="95.25" y1="6.135" x2="94.83" y2="5.715" width="0.254" layer="1"/>
+<wire x1="97.79" y1="10.16" x2="97.79" y2="8.675" width="0.254" layer="1"/>
+<wire x1="97.79" y1="8.675" x2="94.83" y2="5.715" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>
