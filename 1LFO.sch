@@ -10051,7 +10051,7 @@ Source: www.kingbright.com</description>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO214AA" value="DIODE"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="DO214AA" value="DIODE"/>
 <part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="LED1" library="led" deviceset="LED" device="5MM"/>
+<part name="LED1" library="led" deviceset="LED" device="3MM"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
