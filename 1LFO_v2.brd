@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -148,6 +148,8 @@ v2.0 20150725</text>
 <wire x1="58.42" y1="18.415" x2="58.42" y2="13.97" width="0.254" layer="25"/>
 <wire x1="58.42" y1="13.97" x2="66.675" y2="13.97" width="0.254" layer="25"/>
 <wire x1="66.675" y1="13.97" x2="66.675" y2="18.415" width="0.254" layer="25"/>
+<hole x="96.52" y="3.81" drill="3.2"/>
+<rectangle x1="92.71" y1="1.905" x2="99.06" y2="6.985" layer="42"/>
 </plain>
 <libraries>
 <library name="rcl">
